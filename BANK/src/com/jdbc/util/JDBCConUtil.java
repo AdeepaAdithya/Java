@@ -12,9 +12,9 @@ import java.sql.SQLException;
 
 public class JDBCConUtil {
 	// Assigning the variables.
-	private static final String DB = "jdbc:mysql://127.0.0.1:3306/aag";
-	private static final String USERNAME = "AAG";
-	private static final String PASSWORD = "AAG";
+	private static final String DB = "jdbc:mysql://127.0.0.1:3306/";
+	private static final String USERNAME = "";
+	private static final String PASSWORD = "";
 	private static final String DB_DRIVER = "com.mysql.cj.jdbc.Driver";
 	public static Connection getConnection() {
 		 
